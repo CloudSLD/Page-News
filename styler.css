@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;600&family=Roboto&display=swap');
+*{
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.main{
+    width: 100vw;
+    height: 110vh;
+    box-sizing: border-box;
+    background-color: #121214;;
+    
+}
+
+.title{
+    position: absolute;
+    box-sizing: border-box;
+    left: 400px;
+    top: -250px;
+
+}
+
+.text{
+  
+    top: 400px;
+    position: absolute;
+    box-sizing: border-box;
+    
+    left: 30px;
+    font-size: 18pt;
+    color: white;
+    
+}
+
+.text > h1{
+    color: #04D361;
+    
+}
+
+.input{
+    
+    box-sizing: border-box;
+    position: absolute;
+    
+    top: 300px;
+    left: 20px;
+}
+.input > input{
+    width: 800px;
+    height: 50px;
+    box-shadow: 0 0 30px 0 #8257e5;
+    
+}
+.input > img {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #8257e5;
+    width: 50px;
+    height: 55px;
+    cursor: pointer;
+
+}
+
+
+.image{
+box-sizing: border-box;
+    position: absolute;
+   width: 1000px;
+   height: 1000px;
+   left: 1000px;
+   top: -5px
+
+}
+
+
+.animation{
+    width: 400px;
+}
